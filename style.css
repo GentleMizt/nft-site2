@@ -146,7 +146,8 @@ nav button {
 
 .trending-coins div {
     border: 1px solid #00AAA4;
-    padding: 2rem 4rem .5rem 4rem;
+    padding: 1rem .5rem;
+    flex-basis: 32%;
     margin: 0 2rem;
     border-radius: 1rem;
 }
