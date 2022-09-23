@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+
+nav input {
+    width: 25vw;
+    padding: 1.5rem;
+    margin-right: 3rem;
+}
+
+nav button {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.header-images {
+    display: grid;
+    grid-template-areas: 
+        "nisha nisha spunky shredded super"
+        "nisha nisha redape disk duck"
+    ;
+    height: 80vh;
+    width: 95vw;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.header-images div {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-images p {
+    font-size: 2.4rem;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+}
+
+.header-images div:nth-child(1) {
+    background-image: url(./img/nisha.png);
+    grid-area: nisha;
+}
+
+.header-images div:nth-child(2) {
+    background-image: url(./img/spunky.png);
+    grid-area: spunky;
+}
+
+.header-images div:nth-child(3) {
+    background-image: url(./img/shredded.png);
+    grid-area: shredded;
+}
+
+.header-images div:nth-child(4) {
+    background-image: url(./img/super.png);
+    grid-area: super;
+}
+
+.header-images div:nth-child(5) {
+    background-image: url(./img/redape.png);
+    grid-area: redape;
+}
+
+.header-images div:nth-child(6) {
+    background-image: url(./img/disk.png);
+    grid-area: disk;
+}
+
+.header-images div:nth-child(7) {
+    background-image: url(./img/duck.png);
+    grid-area: duck;
+}
+
+.section-1 {
+    background-color: white;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.section-1 .trending{
+    text-align: center;
+}
+.trending h2{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+.trending h2 span{
+    color: #00AAA4;
+}
+.trending p{
+    font-size: 1.6rem;
+    color: #00AAA4;
+    margin-bottom: 3rem;
+}
+.trending-coins img{
+    width: 6rem;
+    margin-bottom: .5rem;
+}
+
+.trending-coins div {
+    border: 1px solid #00AAA4;
+    padding: 2rem 4rem .5rem 4rem;
+    margin: 0 2rem;
+    border-radius: 1rem;
+}
+
+.trending-coins {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.trending-coin-title{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.trending-coins .price{
+    font-size: 1.5rem;
+}
+.trending-coins .percentage{
+    font-size: 1.6rem;
+    color: #00AAA4;
+}
