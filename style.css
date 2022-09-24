@@ -309,7 +309,30 @@ nav span{
     border-radius: 10px;
     padding: 1rem 2rem;
 }
-
+.grid-p{
+    margin-top: 1.5rem;
+}
+.grid-p p{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #606060;
+    line-height: 2rem;
+}
+.buy-now{
+    display: flex;
+    justify-content: space-between;
+}
+.buy-now p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #00AAA4;
+}
+.buy-now p:nth-child(2){
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.51);
+}
 
 /* --------------RESPONSIVE STYLING STARTS HERE ---------------- */
 @media(max-width: 900px){
