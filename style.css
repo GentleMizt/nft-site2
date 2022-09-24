@@ -272,8 +272,43 @@ nav span{
     transform: translateX(-50%);
     margin: 3rem 0;
 }
-
-
+.section-3 h2{
+    font-size: 3rem;
+    text-align: center
+}
+.section-3{
+    padding: 1rem;
+}
+.section-3-grid-container{
+    display: grid;
+    grid-template-areas: 
+    "cat elep man duck santa"
+    ;
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.cat{
+    grid-area: cat;
+}
+.elephant{
+    grid-area: elep;
+}
+.man{
+    grid-area: man;
+}
+.duck{
+    grid-area: duck;
+}
+.santa{
+    grid-area: santa;
+}
+.section-3-grid-container article{
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
 
 
 /* --------------RESPONSIVE STYLING STARTS HERE ---------------- */
