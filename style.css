@@ -349,9 +349,9 @@ nav span{
 footer{
     padding: 2rem 0;
 }
-.footer-flex div:nth-child(2) P{
+.footer-flex div:nth-child(2) p{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 20px;
     color: #606060;;
 }
@@ -391,10 +391,10 @@ footer > img{
     font-weight: 600;
     color: rgba(0, 0, 0, 0.55);
 }
-.bottom p:nth-child(2){
-    font-size: 1.1rem;
+.btm-p{
+    font-size: 1rem;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.49);;
+    color: rgba(0, 0, 0, 0.49);
 }
 
 /* --------------RESPONSIVE STYLING STARTS HERE ---------------- */
@@ -442,4 +442,32 @@ footer > img{
         ". santa"
         ;
     }
-}
+    .footer-flex{
+        width: 90vw;
+    }
+    .kaafila-div p{
+        font-size: 1.3rem;
+    }
+    .footer-flex div:nth-child(2) p{
+        font-size: 1.2rem;
+    }
+    .socials img{
+        margin-right: 1.3rem;
+        width: 7%;
+    }
+    .apps img:nth-child(1){
+        width: 25%;    
+    }
+    .apps img:nth-child(2){
+        width: 28%;
+    }
+    footer > img{
+        width: 15%;
+    }
+    .bottom p:nth-child(1){
+        font-size: 1rem;
+    }
+    .btm-p{
+        font-size: 1rem;
+    }
+}   
