@@ -470,3 +470,19 @@ footer > img{
         font-size: 1rem;
     }
 }   
+@media(max-width: 450px){
+    .header-images{
+        grid-template-areas: 
+        "nisha nisha"
+        "spunky shredded"
+        "super redape"
+        "disk duck"
+        ;
+        height: 100%;
+        width: 100%;
+        gap: 1rem;
+    }
+    .header-images div{
+        height: 50vh;
+    }
+}
