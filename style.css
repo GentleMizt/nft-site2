@@ -518,12 +518,32 @@ footer > img{
         font-size: 1.8rem;
     }
     .section-3 h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .trending-coin-grid{
         grid-template-columns: repeat(1, 1fr);
     }
     .collection-grid{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .section-3-grid-container{
+        grid-template-areas: 
+        "cat"
+        "elep"
+        "man"
+        "duck"
+        "santa"
+        ;
+        width: 80%;
+    }
+    .footer-flex{
+        flex-direction: column;
+    }
+    .kaafila-div{
+        text-align: center;
+    }
+    .footer-flex div:nth-child(2){
+        text-align: center;
+        margin-top: 1rem;
     }
 }
