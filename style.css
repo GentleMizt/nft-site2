@@ -333,9 +333,77 @@ nav span{
     line-height: 20px;
     color: rgba(0, 0, 0, 0.51);
 }
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10rem;
+}
+.kaafila-div{
+    
+}
+.kaafila-div p{
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 1.5rem;
+    font-weight: 600
+}
+footer{
+    padding: 2rem 0;
+}
+.footer-flex div:nth-child(2) P{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;;
+}
+.socials{
+    margin-top: 3rem;
+}
+.apps{
+    margin-top: 1rem;
+}
+.socials img{
+    margin-right: 1.5rem;
+    width: 8%;
+}
+.apps img:nth-child(1){
+    width: 27%;
+    padding-bottom: .3rem;
+
+}
+.apps img:nth-child(2){
+    width: 30%;
+}
+footer > img{
+    margin-left: 2.5rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+}
+.line{
+    border-bottom: 2px solid black;
+    flex-basis: 60%;
+}
+.bottom p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.55);
+}
+.bottom p:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.49);;
+}
 
 /* --------------RESPONSIVE STYLING STARTS HERE ---------------- */
 @media(max-width: 900px){
+    *{
+        /* outline: 1px solid blue; */
+    }
     nav div{
         display: none;
     }
@@ -350,5 +418,14 @@ nav span{
         ;
         height: 80vh;
     }
-
+    .section-1{
+        width: 100vw;
+        border: 1px solid red;
+    }
+    .trending-coins{
+        width: 90%;
+    }
+    .trending-coin-title, .price, .percentage{
+        font-size: 1.3rem;
+    }
 }
