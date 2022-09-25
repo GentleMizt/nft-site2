@@ -223,6 +223,12 @@ nav span{
     margin: auto;
     gap: 2rem;
 }
+.collection-grid article:nth-child(3) .background{
+    background-color: #606060;
+}
+.collection-grid article:nth-child(4) .background{
+    background-color: #606060;
+}
 
 .background img{
     width: 100%;
@@ -484,5 +490,40 @@ footer > img{
     }
     .header-images div{
         height: 50vh;
+    }
+    .trending-coin-title, .price, .percentage{
+        font-size: 1.1rem;
+    }
+    .section-1 h2{
+        font-size: 2.3rem;
+    }
+    .trending-coins{
+        flex-direction: column;
+        width: 100%;
+    }
+    .trending-coins div:nth-child(2){
+        position: relative;
+        bottom: 0;
+    }
+    .trending-coins div{
+        margin-bottom: 1.5rem;
+    }
+    .section-2 h2{
+        font-size: 1.8rem;
+    }
+    .collection-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .background p{
+        font-size: 1.8rem;
+    }
+    .section-3 h2{
+        font-size: 2rem;
+    }
+    .trending-coin-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection-grid{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
