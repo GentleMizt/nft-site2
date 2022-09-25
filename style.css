@@ -340,9 +340,7 @@ nav span{
     margin: auto;
     margin-top: 10rem;
 }
-.kaafila-div{
-    
-}
+
 .kaafila-div p{
     color: rgba(0, 0, 0, 0.51);
     font-size: 1.5rem;
@@ -401,9 +399,6 @@ footer > img{
 
 /* --------------RESPONSIVE STYLING STARTS HERE ---------------- */
 @media(max-width: 900px){
-    *{
-        /* outline: 1px solid blue; */
-    }
     nav div{
         display: none;
     }
@@ -439,5 +434,12 @@ footer > img{
     }
     .section-3 h2{
         font-size: 2rem;
+    }
+    .section-3-grid-container{
+        grid-template-areas: 
+        "cat elep"
+        "man duck"
+        ". santa"
+        ;
     }
 }
